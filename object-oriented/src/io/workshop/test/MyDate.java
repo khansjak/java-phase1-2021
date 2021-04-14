@@ -10,6 +10,7 @@ public class MyDate {
 	}
 	public void setDay(int day) {
 		if (day > 0 && day<=31) {
+			System.out.println("Day is :"+day);
 			
 		}
 		
@@ -20,6 +21,7 @@ public class MyDate {
 	public void setMonth(int month) {
 		if(month >0 && month<=12) {
 			this.month = month;
+			System.out.println("Month is :"+month);
 		}
 		
 	}
@@ -28,7 +30,7 @@ public class MyDate {
 	}
 	public void setYear(int year) {
 		this.year = year;
-	}
-	
+		System.out.println("Year is :"+year);
+	}	
 
 }

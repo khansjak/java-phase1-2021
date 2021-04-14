@@ -7,6 +7,10 @@ public class Dog {
 	private int weight;
 	//How do you declare method ?
 	
+	public Dog(int i) {
+		// TODO Auto-generated constructor stub
+	}
+
 	public int getWeight() {
 		return weight;
 	}
@@ -15,6 +19,11 @@ public class Dog {
 		if(newWeight >0 ) {
 			weight = newWeight;
 		}
+	}
+
+	@Override
+	public String toString() {
+		return "Dog [weight=" + weight + "]";
 	}
 
 }
